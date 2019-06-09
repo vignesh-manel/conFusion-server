@@ -19,7 +19,7 @@ const commentSchema = new Schema({
 	required: true
     }
 },{
-    timestamp: true
+    timestamps: true
 });
 
 const dishSchema = new Schema({
